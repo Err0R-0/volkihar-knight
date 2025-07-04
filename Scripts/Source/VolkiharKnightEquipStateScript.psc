@@ -34,7 +34,7 @@ function updateEquipState(Actor akActor, FormList armorList, FormList cuirassLis
 		endif
 	EndWhile
 
-	if (numEquipped >= 4)
+	if (numEquipped >= 3)
 		Spell EqupiSpell = spellList.GetAt(cuirassIndex) As Spell
 		akActor.AddSpell(EqupiSpell)
 	endif
